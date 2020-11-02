@@ -1,15 +1,11 @@
-HomeworkName
+HtmlFetcher
 =================================================
 
-For this homework, you will **PENDING**.
+For this homework, you will download HTML content from web servers. This homework is broken into the following classes:
 
-## Hints ##
+  - `HttpsFetcher.java`: This is a general HTTP(S) fetcher and is the same as the lecture code.
 
-Below are some hints that may help with this homework assignment:
-
-- **PENDING**
-
-These hints are *optional*. There may be multiple approaches to solving this homework.
+  - `HtmlFetcher.java`: This is a variant of HTTP(S) fetcher specifically for HTML content. There are a few methods here you must implement.
 
 ## Requirements ##
 

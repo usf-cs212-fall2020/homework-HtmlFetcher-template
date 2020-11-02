@@ -4,12 +4,13 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.usfca.cs.cs212</groupId>
-	<artifactId>HomeworkName</artifactId>
+	<artifactId>HtmlFetcher</artifactId>
 	<version>2020-08</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>14</maven.compiler.release>
+		<logj4Version>2.13.3</logj4Version>
 
 		<!-- compiler arguments -->
 		<compileOptionXlint>-Xlint:all</compileOptionXlint>
@@ -49,6 +50,19 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
 			<version>5.7.0-M1</version>
+		</dependency>
+
+		<!-- for logging -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${logj4Version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${logj4Version}</version>
 		</dependency>
 	</dependencies>
 </project>
